@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/png" href="Images/zavier essentials icon.png">
 
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Github Finder | Home</title>
 </head>
@@ -18,17 +19,29 @@
         </div>
     </nav>
 
-    <div class="container searchContainer">
-
-        <div class=" search card card-body text-white bg-secondary mb-3">
-            <h1>Search Github User</h1>
-            <p class="lead">Enter a username to fetch user profile and repos</p>
-            <input type="text" id="searchUser" class="form-control" placeholder="Github Username....">
+    <div class="mainContainer">
+        
+        <div class="container searchContainer">
+    
+            <div class=" search card card-body bg-secondary mb-3">
+                <h1>Search Github User</h1>
+                <p class="lead">Enter a username to fetch user profile and repos</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Github Username....">
+            </div>
         </div>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3" id="profile-image"></div>
+                <div class="col-md-9 profile-info"></div>
+            </div>
+        </div>
+
     </div>
+
     
 
-    <footer class="mb-0 text-center">
+    <footer class="text-center">
         Github Finder by Kizito Azubuike &copy;
     </footer>
 
